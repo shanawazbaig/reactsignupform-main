@@ -1,0 +1,37 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://example.com/hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .hero-container h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+  
+  .hero-container p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #000;
+  }
+  
+  .hero-container button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: cyan;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-container button:hover {
+    background-color: #000;
+  }
+  
